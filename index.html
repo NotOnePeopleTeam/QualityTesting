@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/rest.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <style>
+        .swiper-pagination {
+            text-align: right;
+            padding-right: 15px;
+            box-sizing: border-box;
+
+        }
+
+        .swiper-pagination-bullet {
+            display: block;
+            width: 10px;
+            height: 10px;
+            background-color: #fff;
+            border-radius: 0;
+            float: right;
+            opacity: 1;
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: #ed1d25 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 头 -->
+    <div class="head">
+        <div class="conter">
+            2023年4月24&nbsp;&nbsp;星期六
+        </div>
+    </div>
+    <!-- 搜索框 -->
+    <div class="conster">
+        <div>
+            <a href="http://www.cpzl.net/">
+                <img src="http://www.cpzl.net/statics/images/main/logo.png" alt="">
+            </a>
+        </div>
+        <div class="searchContainer">
+            <span>企业查询</span>
+            <div class="search novRight">
+                <input type="text" placeholder="请输入查询编号">
+                <a href="./seachcode.html"><span></span></a>
+            </div>
+        </div>
+    </div>
+    <!-- 选项卡 -->
+    <div class="meunLbaox">
+        <div class="lister" id='menu'>
+
+        </div>
+    </div>
+    <!-- 内容 -->
+    <div class="conterIndex">
+        <div class="titlerss">
+            <a href="./indexdis.html?type='3'">
+                国务院关于印发社会信用体系建设规划纲要（2014-2020年）的通知
+            </a>
+        </div>
+        <!--  -->
+        <div class="liteHero">
+            <a href="./indexdis.html?type='3'" title="李克强主持召开经济形势部分地方政府主要负责人视频座谈会"
+                target="_blank">李克强主持召开经济形势部分地方政府主要负责人视频座谈会</a>
+            <a href="./indexdis.html?type='3'" title="中省主流媒体关注报道陕西“产品质量诚信创建宣言”活动"
+                target="_blank">中省主流媒体关注报道陕西“产品质量诚信创建宣言”活动</a>
+            <a href="./indexdis.html?type='3'" title="陕西省产品质量管理中心发起“产品质量诚信创建宣言”活动"
+                target="_blank">陕西省产品质量管理中心发起“产品质量诚信创建宣言”活动</a>
+            <a href="./indexdis.html?type='3'" title="发挥金融服务优势 助推航天基地高质量发展" target="_blank">发挥金融服务优势 助推航天基地高质量发展</a>
+        </div>
+    </div>
+    <!-- 正文展示 -->
+    <div class="container">
+        <div class="slideBox">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./img/20190723033322341.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/20200701104200885.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/thumb_650_350_20190723034135715.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/thumb_650_350_20200331041507889.jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="newsList">
+            <ul id="newsList">
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="container columnTwo">
+        <!-- 政策法规 -->
+        <div class="column">
+            <div class="title">政策法规<span><a href="indexlist.html?type=3" class="more">更多</a></span></div>
+            <ul id="column3">
+
+            </ul>
+        </div>
+        <!-- 通知公告 -->
+        <div class="column">
+            <div class="title">通知公告<span><a href="indexlist.html?type=2" class="more"
+                        target="_blank">更多</a></span></div>
+            <ul id="column2">
+
+            </ul>
+        </div>
+    </div>
+    <div class="container columnTwo">
+        <!-- 新闻资讯 -->
+        <div class="column">
+            <div class="title">新闻资讯<span><a href="indexlist.html?type=4" class="more"
+                        target="_blank">更多</a></span></div>
+            <ul id="column4">
+
+            </ul>
+        </div>
+
+        <!-- 消费警示 -->
+        <div class="column">
+            <div class="title">消费警示<span><a href="indexlist.html?type=7" class="more"
+                        target="_blank">更多</a></span></div>
+            <ul id="column7">
+
+            </ul>
+        </div>
+    </div>
+    <div class="container columnTwo">
+        <!-- 特别关注 -->
+        <div class="column">
+            <div class="title">特别关注<span><a href="indexlist.html?type=5" class="more"
+                        target="_blank">更多</a></span></div>
+            <ul  id="column5">
+
+            </ul>
+        </div>
+
+        <!-- 质量信息 -->
+        <div class="column" >
+            <div class="title">质量信息<span><a href="indexlist.html?type=6" class="more"
+                        target="_blank">更多</a></span></div>
+            <ul  id="column6">
+
+            </ul>
+        </div>
+    </div>
+    <!-- 底部信息 -->
+    <div class="footer container">
+        <p>法律顾问：<a href="http://www.cpzl.net/show-6-84-1.html" target="_blank">陕西维恩律师事务所主任 安文江</a></p>
+        <p>Copyright © 陕西省方圆质量检验管理中心 Inc. All rights reserved</p>
+        <p><a href="https://beian.miit.gov.cn/" target="_blank"></a>&nbsp;&nbsp;&nbsp;电话:029-86366551 / 传真:029-86366551
+        </p>
+    </div>
+</body>
+
+</html>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/swiper.min.js"></script>
+<script src="./js/config.js"></script>
+<script src="./js/main.js" ></script>
+<script async>
+    var mySwiper = new Swiper('.slideBox', {
+        autoplay: 5000,//可选选项，自动滑动
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+    })
+    menuFun() //菜单
+    // 新闻列表
+    let news_str = ''
+    $.each(newsList, function (i, n) {
+        if (i >= 8) {
+            return
+        }
+        news_str += ` <li><a href="./indexdis.html?type=3"
+     target="_blank">${n.name}</a></li>`
+    });
+    $("#newsList").append(news_str);
+    $("#column7").append(news_str);//消费警示
+    $("#column6").append(news_str);//质量信息
+    $("#column5").append(news_str);//特别关注
+    $("#column4").append(news_str);//新闻资讯
+    $("#column3").append(news_str);//政策法规
+    $("#column2").append(news_str);//通知公告
+
+</script>

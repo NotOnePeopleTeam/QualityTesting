@@ -1,0 +1,45 @@
+ /*
+ * ===============================================================
+ * 搜索页面样式 
+ * @Author @inoro<inoro@qq.com>
+ * @Date 2018/10/25
+ * @Detail 陕西产品质量管理中心全局样式
+ * ===============================================================
+ */
+
+ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill{background-color: #fff;}
+
+ /* 搜索首页 */
+ .searchLogo{width:450px;margin:auto;margin-top:120px;}
+ .searchLogo img{width:450px;}
+ .searchBox{width: 600px;margin: auto;display: flex;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;justify-content:center;margin-top:60px;}
+ .searchBox input{padding: 10px;width: 500px;border: 1px solid #ccc;border-radius: 2px;float: left;height: 17px;outline: none;box-sizing:  content-box  ;}
+ .searchInput .on{border: 1px solid #fd6853}
+ .searchBox button{cursor: pointer; outline: none; background: #fd6853;height: 39px;width: 74px;color: #fff;border: none;float: left;margin-left: -2px;border-radius: 0 2px 2px 0;font-weight: normal;transition: all 400ms}
+ .searchBox button:hover{background: #f13a20}
+ .comfooter{border-top:0px;margin-top:150px;font-size: 12px;}
+
+ /* 搜索结果 */
+ .searchResult{width:inherit;justify-content: left;flex-direction: column;padding: 30px;margin-top:0px;border-bottom: 1px solid #eaeaea;}
+ .searchResult .logo img{width:300px;margin-bottom: 20px;}
+ .resultContent{padding: 20px 30px 30px 30px;width: 900px;}
+ .searchDateInfo{height:40px;line-height: 40px;font-size:12px;color:#999;text-indent: 30px;}
+
+.resultContentList ul li{margin-bottom:20px;}
+.resultContentList ul li .resultContentTitle h5{font-size: 18px;font-weight: normal;margin-bottom: 5px;}
+.resultContentList ul li .resultContentTitle p{font-size: 14px;color: #888;line-height: 22px;margin-bottom: 5px;}
+
+/* 无结果 */
+.noResult{}
+
+
+.res{text-align: left;padding-top: 30px;border-top: 1px solid #eaeaea;width: inherit;margin-top: 0;}
+.res p{margin-left: 30px;color: #777;}
+.res p a{color: #777;}
+.res p a:hover{color:#333;}
+.isbn{margin-bottom: 5px;}
+/* / */
+.search {height: 24px;overflow: hidden;border-radius:20px;background: #fff;padding-left:13px;margin-top: 5px;} 
+.search input{height: 23px;margin-top: 1px;line-height: 24px;border:none;float: left;}
+.search span{background: url(../images/main/search.png);height: 18px;width: 18px;display: block;float: right;margin-top: 3px;background-size: contain;margin-right: 7px;opacity: 0.3;cursor: pointer;transition: all 0.2s;}
+.search span:hover{opacity: 1;}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/rest.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <!-- 头 -->
+    <div class="head">
+        <div class="conter">
+            2023年4月24&nbsp;&nbsp;星期六
+        </div>
+    </div>
+    <!-- 搜索框 -->
+    <div class="conster">
+        <div>
+            <a href="http://www.cpzl.net/">
+                <img src="http://www.cpzl.net/statics/images/main/logo.png" alt="">
+            </a>
+        </div>
+        <div class="searchContainer">
+            <span>企业查询</span>
+            <div class="search novRight">
+                <input type="text" placeholder="请输入查询编号">
+                <a href="./seachcode.html"><span></span></a>
+            </div>
+        </div>
+    </div>
+    <!-- 选项卡 -->
+    <div class="meunLbaox">
+        <div class="lister" id='menu'>
+          
+        </div>
+    </div>
+    <div class="listContainer container">
+        <!-- 面包屑 -->
+        <div class="readTopNav" ><a href="./index.html">首页</a><span> &gt; </span>
+            <a  id="readTopNav" href="http://www.cpzl.net/list-7-1.html"></a> &gt; 列表</div>
+        <div class="listContent">
+            <ul id="listContent">
+               
+            </ul>
+            <div id="pages" class="readPages listPages"><a class="a1">44条</a> <a
+                    href="http://www.cpzl.net/list-11-0.html" class="a1">上一页</a> <span>1</span> <a
+                    href="http://www.cpzl.net/list-11-2.html">2</a> <a href="http://www.cpzl.net/list-11-2.html"
+                    class="a1">下一页</a></div>
+            </ul>
+        </div>
+    </div>
+    <!-- 底部信息 -->
+    <div class="footer container">
+        <p>法律顾问：<a href="http://www.cpzl.net/show-6-84-1.html" target="_blank">陕西维恩律师事务所主任 安文江</a></p>
+        <p>Copyright © 陕西省方圆质量检验管理中心 Inc. All rights reserved</p>
+        <p><a href="https://beian.miit.gov.cn/" target="_blank"></a>&nbsp;&nbsp;&nbsp;电话:029-86366551 / 传真:029-86366551
+        </p>
+    </div>
+</body>
+
+</html>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/config.js"></script>
+<script src="./js/main.js" ></script>
+<script>
+    menuFun() //菜单
+    crumbsFun() //面包屑
+    listContentFun()//列表渲染
+</script>
